@@ -11,16 +11,64 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive portfolio website Chris - Bedimcode</title>
+        <title>PortFolio- Priyanshu Jain </title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
+            <nav class  = "nav container">
+                <a href="#" class="nav__logo">
+                    Priyanshu
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class = "ri-home-5-line"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="ri-trophy-line"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="ri-briefcase-line"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="ri-book-fill"></i> Qualification
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="ri-macbook-fill"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="ri-chat-3-line"></i> Contact me
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i> 
+                    </div>
+                </div>
+                <div class="nav__buttons">
+                    <i class="ri-moon-line change-theme" id = "theme-button"></i> 
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-4-line"></i>
+                    </div>
+                </div>
+            </nav>
             
         </header>
 
@@ -28,27 +76,361 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
+                <div class = "home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Hi!, I am Priyanshu <br> a AI engineer <br> based in India.
+                        </h1>
+                        <div class="home__blob grid">
+                            <div class="home__perfil">
+                                <img src="assets/img/perfil.png" alt="home perfil">
+                            </div>
+
+                        </div>
+                        <ul class="home__social">
+                            <a href="https://www.linkedin.com/in/priyanshu-jain-2536b6211/"  traget = "_blank" class="home__social-link">
+                              <i class ="ri-linkedin-box-line"> 
+                              </i>
+                             </a>
+                            <a href="https://github.com/priyanshujain2001/"  traget = "_blank" class="home__social-link">
+                                <i class ="ri-github-line"> 
+                                </i>
+                            </a>
+                            <a href="https://leetcode.com/u/celestialassault00000/"  traget = "_blank" class="home__social-link">
+                                <i class ="ri-code-line"> 
+                                </i>
+                            </a>
+                        </ul>
+                    </div>
+                    <!--==================== HOME  Info 1 ====================-->
+                    <div class="home__info">
+                        <div>
+                           <h3 class="home__info-title">
+                            BIOGRAPHY
+                           </h3>
+                           <p class="home__info-description">
+                            Hi, I'm Priyanshu, Data professional passionate about findings insights from data. Based in India
+                           </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">
+                            CONTACT
+                            </h3>
+                            <p class="home__info-description">
+                                Priyanshu Jain <br>
+                                jainpriyanshu2982001@gmail.com <br>
+                                +91 9772589690 <br>
+                            </p>
+ 
+ 
+                         </div>
+                         <div>
+                            <h3 class="home__info-title">
+                                SERVICES
+                            </h3>
+                            <p class="home__info-description">
+                                AI Engineer <br>
+                                Data Engineer <br>
+                                ML Engineer <br>
+                            </p>
+ 
+ 
+                         </div>
+                    </div>
+ <!--==================== HOME  Info 2 ====================-->
+            <div class="home__info">
+                <div >
+                    <h3 class="home__info-title">
+                        Experience
+                    </h3>
+                    <p class="home__info-number">
+                        1 Year 
+                    </p>
+                </div>
+                <div >
+                    <h3 class="home__info-title">
+                        Completed Projects
+                    </h3>
+                    <p class="home__info-number">
+                        20+
+                    </p>
+                </div>
+                <div >
+                    <h3 class="home__info-title">
+                        Companies Worked 
+                    </h3>
+                    <p class="home__info-number">
+                        2+
+                    </p>
+                </div>
+            </div>
+                </div>
+
                 
             </section>
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
+                <h2 class="section__title">
+                    SKILLS
+                    <span class="section__subtitle">My favorite skills</span>
+                    <div class="skills__container grid section__border">
+                         <!--==================== SKILLS -1  ====================-->
+                         <div class="skills__content">
+                            <h3 class="skills__title">
+                             Data Engineer
+                            </h3>
+                            <div class="skills__info">
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="assets/img/data_modelling.webp" alt="skills image ">
+                                    </div>
+                                    <h3 class="skills__name"> Data Modelling</h3>
+                                    <span class="skills_subtitle"> Intermediate</span>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="assets/img/web_scrappping.webp" alt="skills image ">
+                                    </div>
+                                    <h3 class="skills__name"> Data Extraction </h3>
+                                    <span class="skills_subtitle">Intermediate</span>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="assets/img/programming_skills.webp" alt="skills image ">
+                                    </div>
+                                    <h3 class="skills__name"> Programming skills</h3>
+                                    <span class="skills_subtitle"> Intermediate</span>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="assets/img/databases.webp" alt="skills image ">
+                                    </div>
+                                    <h3 class="skills__name"> Mongo DB Database</h3>
+                                    <span class="skills_subtitle"> Basic</span>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="assets/img/ai_agents.webp" alt="skills image ">
+                                    </div>
+                                    <h3 class="skills__name">AI Agents</h3>
+                                    <span class="skills_subtitle">Intermediate</span>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="assets/img/git.webp" alt="skills image ">
+                                    </div>
+                                    <h3 class="skills__name">GIT </h3>
+                                    <span class="skills_subtitle">Basic</span>
+                                </div>
+                            </div>
+                         </div>
+                       
+                    </div>
+
+                </h2>
                 
             </section>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section" id="qualification">
-                
+                <h2 class="section__title">QUALIFICATION</h2>
+                <span class="section__subtitle">Experience & Education</span>
+                <div class="qualification__container container grid section__boreder">
+                    <!--==================== QUALIFICATION  1 ====================-->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class = "ri-pencil-ruler-2-line"></i>Education
+                        </h3>
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    B.Tech in Civil and Infrastructure
+                                </h3>
+                                <span class="qualification__country"> IIT Jodhpur</span>
+                                <span class="qualification__year">2020- 2024</span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">
+                                    Senior Secondary
+                                </h3>
+                                <span class="qualification__country"> Arihant children senior secondary school</span>
+                                <span class="qualification__year">2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== QUALIFICATION  2 ====================-->
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-building-line"></i> Work
+
+                        </h3>
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    AI enabler intern
+                                </h3>
+                                <span class="qualification__country"> Rediminds Inc.</span>
+                                <span class="qualification__year"> May2024- Present</span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">
+                                    ML and data science intern
+                                </h3>
+                                <span class="qualification__country">ML experts.ai </span>
+                                <span class="qualification__year">Jan 2024  - May 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
             </section>
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
+                <h2 class="section__title">
+                    Services
+                </h2>
+                <span class="section__subtitle"> what i offer</span>
+                <div class="services__container container grid section__border">
+                    <div class="services__card">
+                        <i class="ri-code-line"></i>
+                        <h2 class="services__title">
+                            Anything with  <br> 
+                            Data 
+                        </h2>
+                        <p class="services__description">
+                            Services that provides the best quality and at the request of the client, with professional work and customer support.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+                </div>
+
+
+
                 
             </section>
 
             <!--==================== PROJECTS ====================-->
             <section class="projects section" id="projects">
-                
+                <h2 class="section__title">
+                    Projects
+                </h2>
+                <span class="section__subtitle">
+                    Most Recent Work
+                </span>
+                <div class="container section__border">
+                    <div class="projects__container swiper ">
+                        <div class = "swiper-wrapper">
+                            <!--==================== PROJECT-1  ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/LORA.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">Lora and finetuning </span>
+                                    <h1 class="projects__title">Finetune of Microsoft phi-2 using LoRA
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Fine_tune_microsoft_phi2_on_pdf" class="projects__button">
+                                       <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/FQS.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">RAG </span>
+                                    <h1 class="projects__title"> Financial Chatbot using RAG
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Financial_Query_Solver_using_RAG" class="projects__button">
+                                         <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/DL.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">Sequential Learning</span>
+                                    <h1 class="projects__title"> Water quality classification based on ANN and validating features importance using Game Theory
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Deep-Learning-in-Enviromental-Science" class="projects__button">
+                                    <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/Parking_lot.png" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">LLD and HLD </span>
+                                    <h1 class="projects__title">Parking lot design using sql databases.
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Fine_tune_microsoft_phi2_on_pdf" class="projects__button">
+                                       <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/MPT.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">Financial Engineering</span>
+                                    <h1 class="projects__title"> Portfolio diversfication using Modern Portfolio Theory
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Financial-Engineering" class="projects__button">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/soil_crack.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle"> CNN and quantification</span>
+                                    <h1 class="projects__title"> Quantification of Soil Cracks using CNN
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Quantification-of-Soil-Crack" class="projects__button">
+                                         <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/Recommendation.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">Recommendation Systemns</span>
+                                    <h1 class="projects__title"> Movie Recommendation System
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/Movie-Recommendation" class="projects__button">
+                                         <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/images/vit.webp" alt="projects image">
+                                <div>
+                                    <span class="projects__subtitle">Curriculum learning</span>
+                                    <h1 class="projects__title"> Visual Transformers with Shannon Entropy
+
+                                    </h1>
+                                    <a href="https://github.com/priyanshujain2001/VIT_with_shannon_entroy" class="projects__button">
+                                         <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
@@ -58,28 +440,70 @@
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
-                
+                <h2 class="section__title">Contact Me </h2>
+                <span class="section__subtitle"> Get in touch  </span>
+                <div class="contact_content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me 
+                    </h3>
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email </span>
+                            <span class="contact__data-info">jainpriyanshu2982001@gmail.com </span>
+                        </div>
+                        <div class="contact__data">
+                            <span class="contact__data-title">Phone Number</span>
+                            <span class="contact__data-info">+91 9772589690</span>
+                            <a href="https://api.whatsapp.com/send?phon=919772589690&text=Hello" target="_blank" class="contact__button">
+                                Write Me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">Priyanshu </h1>
+                <p>Data Enthusiast</p>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/priyanshu-jain-2536b6211/" target="_blank" class="footer__social link"><i class="ri-linkedin-box-line"></i></a>
+                    <a href="https://github.com/priyanshujain2001" target="_blank" class="footer__social link"><i class="ri-github-line"></i></a>
+                    <a href="https://leetcode.com/u/celestialassault00000/" target="_blank" class="footer__social link"><i class="ri-code-box-line"></i></a>
+                </ul>
+                <span class="footer__copy">
+                    &#169 Copyright Priyanshu. All rights reserved
+                </span>
+            </div>
         </footer>
 
 
         <!--========== SCROLL UP ==========-->
-        
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
-        
-
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
     </body>
